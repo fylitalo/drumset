@@ -9,7 +9,7 @@
    });
 
  }
- document.addEventListener("keydown", function(event) {
+ document.addEventListener("keypress", function(event) {
   makeSound(event.key);
  });
 
